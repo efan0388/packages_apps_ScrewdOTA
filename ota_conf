@@ -2,7 +2,7 @@
 #ro.product.device will get the name of the device. Use the same name in ota-lollipop.xml in the tag
 ota_url=https://www.dropbox.com/s/l9s7pb0ldaw9axz/ota-lollipop.xml?dl=1
 release_type=OFFICIAL
-device_name=ro.product.device
+device_name=ro.broken.device
  
 # example ro.modversion=Tesla-bacon-5.1.1.High_Voltage.2.1-Release-20150826.zip
 # We have to get the date position out of that, so position 4 (i think) since the delimiter is set to -
