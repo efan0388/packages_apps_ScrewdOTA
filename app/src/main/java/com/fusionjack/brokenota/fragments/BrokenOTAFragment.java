@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.fragments;
+package com.fusionjack.brokenota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,18 +25,18 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.fusionjack.slimota.R;
-import com.fusionjack.slimota.configs.AppConfig;
-import com.fusionjack.slimota.configs.LinkConfig;
-import com.fusionjack.slimota.configs.OTAVersion;
-import com.fusionjack.slimota.dialogs.WaitDialogFragment;
-import com.fusionjack.slimota.tasks.CheckUpdateTask;
-import com.fusionjack.slimota.utils.OTAUtils;
-import com.fusionjack.slimota.xml.OTALink;
+import com.fusionjack.brokenota.R;
+import com.fusionjack.brokenota.configs.AppConfig;
+import com.fusionjack.brokenota.configs.LinkConfig;
+import com.fusionjack.brokenota.configs.OTAVersion;
+import com.fusionjack.brokenota.dialogs.WaitDialogFragment;
+import com.fusionjack.brokenota.tasks.CheckUpdateTask;
+import com.fusionjack.brokenota.utils.OTAUtils;
+import com.fusionjack.brokenota.xml.OTALink;
 
 import java.util.List;
 
-public class SlimOTAFragment extends PreferenceFragment implements
+public class BrokenOTAFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener,
         SharedPreferences.OnSharedPreferenceChangeListener ,
         WaitDialogFragment.OTADialogListener,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+<BrokenOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <A0001>
             <Filename>SlimSaber-bacon-5.0.2-20150507</Filename>
@@ -21,4 +21,4 @@
                 description="Visit SlimSaber bacon thread">http://forum.xda-developers.com/oneplus-one/development/rom-slimsaber-bacon-t2858033</XDAUrl>
 	</A0001>
     </Stable>
-</SlimOTA>
+</BrokenOTA>
