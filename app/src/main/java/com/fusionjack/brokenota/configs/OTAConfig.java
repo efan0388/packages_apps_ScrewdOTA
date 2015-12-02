@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.configs;
+package com.fusionjack.brokenota.configs;
 
 import android.content.Context;
 
-import com.fusionjack.slimota.utils.OTAUtils;
+import com.fusionjack.brokenota.utils.OTAUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
