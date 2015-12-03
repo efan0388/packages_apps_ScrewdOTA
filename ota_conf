@@ -1,6 +1,6 @@
 #Add the url where you have uploaded the xml [ upload it to dropbox since it supports hot linking. keep dl=1 at the end of the link ]
-#ro.product.device will get the name of the device. Use the same name in ota-lollipop.xml in the tag
-ota_url=https://www.dropbox.com/s/l9s7pb0ldaw9axz/ota-lollipop.xml?dl=1
+#ro.product.device will get the name of the device. Use the same name in ota-broken.xml in the tag
+ota_url=https://www.dropbox.com/s/vnlyjl70wf8ibp7/ota-broken.xml?dl=1
 release_type=OFFICIAL
 device_name=ro.broken.device
  
