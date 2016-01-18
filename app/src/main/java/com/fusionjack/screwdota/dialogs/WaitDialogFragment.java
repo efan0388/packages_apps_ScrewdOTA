@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.brokenota.dialogs;
+package com.fusionjack.screwdota.dialogs;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -22,7 +22,7 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.fusionjack.brokenota.R;
+import com.fusionjack.screwdota.R;
 
 public class WaitDialogFragment extends DialogFragment {
 

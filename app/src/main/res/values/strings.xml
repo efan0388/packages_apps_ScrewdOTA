@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">BrokenOTA</string>
-    <string name="app_title">BrokenOTA</string>
+    <string name="app_name">ScrewdOTA</string>
+    <string name="app_title">ScrewdOTA</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>

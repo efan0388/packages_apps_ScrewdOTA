@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.brokenota.dialogs;
+package com.fusionjack.screwdota.dialogs;
 
 import android.app.Activity;
 import android.app.Fragment;

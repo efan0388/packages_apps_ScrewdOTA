@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package com.fusionjack.brokenota;
+package com.fusionjack.screwdota;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.fusionjack.brokenota.configs.LinkConfig;
-import com.fusionjack.brokenota.dialogs.WaitDialogFragment;
-import com.fusionjack.brokenota.fragments.BrokenOTAFragment;
+import com.fusionjack.screwdota.configs.LinkConfig;
+import com.fusionjack.screwdota.dialogs.WaitDialogFragment;
+import com.fusionjack.screwdota.fragments.ScrewdOTAFragment;
 
 public class MainActivity extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {
 
-    private static final String FRAGMENT_TAG = BrokenOTAFragment.class.getName();
-    private BrokenOTAFragment mFragment;
+    private static final String FRAGMENT_TAG = ScrewdOTAFragment.class.getName();
+    private ScrewdOTAFragment mFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mFragment = (BrokenOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
+        mFragment = (ScrewdOTAFragment) getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
         if (mFragment == null) {
             getFragmentManager().beginTransaction()
-                    .replace(android.R.id.content, new BrokenOTAFragment(), FRAGMENT_TAG)
+                    .replace(android.R.id.content, new ScrewdOTAFragment(), FRAGMENT_TAG)
                     .commit();
         }
 

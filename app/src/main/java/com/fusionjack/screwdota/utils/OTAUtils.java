@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.brokenota.utils;
+package com.fusionjack.screwdota.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -22,7 +22,7 @@ import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.fusionjack.brokenota.configs.OTAConfig;
+import com.fusionjack.screwdota.configs.OTAConfig;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -36,7 +36,7 @@ import java.util.Properties;
 
 public final class OTAUtils {
 
-    private static final String TAG = "BrokenOTA";
+    private static final String TAG = "ScrewdOTA";
     private static final boolean DEBUG = true;
 
     private static final String BUILD_PROP = "/system/build.prop";

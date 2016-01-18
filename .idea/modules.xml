@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BrokenOTA.iml" filepath="$PROJECT_DIR$/BrokenOTA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScrewdOTA.iml" filepath="$PROJECT_DIR$/ScrewdOTA.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

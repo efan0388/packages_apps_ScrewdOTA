@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.brokenota.scheduler;
+package com.fusionjack.screwdota.scheduler;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -25,8 +25,8 @@ import android.net.NetworkInfo;
 import android.os.SystemClock;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.fusionjack.brokenota.configs.AppConfig;
-import com.fusionjack.brokenota.utils.OTAUtils;
+import com.fusionjack.screwdota.configs.AppConfig;
+import com.fusionjack.screwdota.utils.OTAUtils;
 
 public class OTAListener implements WakefulIntentService.AlarmListener {
 
@@ -38,11 +38,11 @@ public class OTAListener implements WakefulIntentService.AlarmListener {
     public void scheduleAlarms(AlarmManager alarmManager, PendingIntent pendingIntent, Context context) {
         mIntervalValue = AppConfig.getUpdateIntervalTime(context);
         if (mIntervalValue > 0) {
-            OTAUtils.logInfo("BrokenOTA is scheduled for every: " + mIntervalValue + " ms");
+            OTAUtils.logInfo("ScrewdOTA is scheduled for every: " + mIntervalValue + " ms");
             alarmManager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP,
                     SystemClock.elapsedRealtime() + 60000, mIntervalValue, pendingIntent);
         } else {
-            OTAUtils.logInfo("BrokenOTA is disabled");
+            OTAUtils.logInfo("ScrewdOTA is disabled");
         }
     }
 

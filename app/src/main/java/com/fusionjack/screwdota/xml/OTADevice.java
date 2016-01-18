@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.brokenota.xml;
+package com.fusionjack.screwdota.xml;
 
 import java.util.ArrayList;
 import java.util.List;

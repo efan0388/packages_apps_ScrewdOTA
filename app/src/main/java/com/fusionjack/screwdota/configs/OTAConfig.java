@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.fusionjack.brokenota.configs;
+package com.fusionjack.screwdota.configs;
 
 import android.content.Context;
 
-import com.fusionjack.brokenota.utils.OTAUtils;
+import com.fusionjack.screwdota.utils.OTAUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

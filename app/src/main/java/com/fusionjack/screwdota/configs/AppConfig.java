@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.brokenota.configs;
+package com.fusionjack.screwdota.configs;
 
 import android.app.AlarmManager;
 import android.content.Context;
@@ -22,9 +22,9 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.fusionjack.brokenota.R;
-import com.fusionjack.brokenota.scheduler.OTAListener;
-import com.fusionjack.brokenota.utils.OTAUtils;
+import com.fusionjack.screwdota.R;
+import com.fusionjack.screwdota.scheduler.OTAListener;
+import com.fusionjack.screwdota.utils.OTAUtils;
 
 import java.text.DateFormat;
 import java.util.Date;

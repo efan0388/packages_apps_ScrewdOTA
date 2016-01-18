@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.fusionjack.brokenota.configs;
+package com.fusionjack.screwdota.configs;
 
 import android.content.Context;
 
-import com.fusionjack.brokenota.xml.OTALink;
-import com.fusionjack.brokenota.xml.OTAParser;
-import com.fusionjack.brokenota.utils.OTAUtils;
+import com.fusionjack.screwdota.xml.OTALink;
+import com.fusionjack.screwdota.xml.OTAParser;
+import com.fusionjack.screwdota.utils.OTAUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

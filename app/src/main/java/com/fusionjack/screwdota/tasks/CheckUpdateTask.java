@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.brokenota.tasks;
+package com.fusionjack.screwdota.tasks;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -28,16 +28,16 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
-import com.fusionjack.brokenota.MainActivity;
-import com.fusionjack.brokenota.R;
-import com.fusionjack.brokenota.configs.AppConfig;
-import com.fusionjack.brokenota.configs.LinkConfig;
-import com.fusionjack.brokenota.configs.OTAConfig;
-import com.fusionjack.brokenota.configs.OTAVersion;
-import com.fusionjack.brokenota.dialogs.WaitDialogHandler;
-import com.fusionjack.brokenota.utils.OTAUtils;
-import com.fusionjack.brokenota.xml.OTADevice;
-import com.fusionjack.brokenota.xml.OTAParser;
+import com.fusionjack.screwdota.MainActivity;
+import com.fusionjack.screwdota.R;
+import com.fusionjack.screwdota.configs.AppConfig;
+import com.fusionjack.screwdota.configs.LinkConfig;
+import com.fusionjack.screwdota.configs.OTAConfig;
+import com.fusionjack.screwdota.configs.OTAVersion;
+import com.fusionjack.screwdota.dialogs.WaitDialogHandler;
+import com.fusionjack.screwdota.utils.OTAUtils;
+import com.fusionjack.screwdota.xml.OTADevice;
+import com.fusionjack.screwdota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 

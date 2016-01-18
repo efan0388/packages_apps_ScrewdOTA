@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.fusionjack.brokenota.scheduler;
+package com.fusionjack.screwdota.scheduler;
 
 import android.content.Intent;
 import android.os.AsyncTask;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.fusionjack.brokenota.tasks.CheckUpdateTask;
+import com.fusionjack.screwdota.tasks.CheckUpdateTask;
 
 public class OTAService extends WakefulIntentService {
 
     public OTAService() {
-        super("BrokenOTA");
+        super("ScrewdOTA");
     }
 
     @Override
