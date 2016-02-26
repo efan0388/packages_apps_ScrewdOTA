@@ -101,7 +101,7 @@ public class ScrewdOTAFragment extends PreferenceFragment implements
         if (mRomInfo != null) {
             String fullLocalVersion = OTAVersion.getFullLocalVersion(getActivity());
             String shortLocalVersion = OTAVersion.extractVersionFrom(fullLocalVersion, getActivity());
-            mRomInfo.setTitle(fullLocalVersion);
+            //mRomInfo.setTitle(fullLocalVersion);
 
             String prefix = getActivity().getResources().getString(R.string.latest_version);
             String fullLatestVersion = AppConfig.getFullLatestVersion(getActivity());
