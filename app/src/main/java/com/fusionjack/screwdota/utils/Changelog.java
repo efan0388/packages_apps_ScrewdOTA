@@ -31,7 +31,7 @@ interface IChangelog {
 
 public abstract class Changelog extends AsyncTask<Context, Integer, String> implements IChangelog {
 
-    private static final String CHANGELOG_FILE = "/system/etc/changelog.txt";
+    private static final String CHANGELOG_FILE = "/system/etc/Changelog.txt";
 
     public abstract void onResponseReceived(String result);
 
